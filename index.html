@@ -118,8 +118,44 @@
 
 <body>
   <header>
-    <h1>Partitura de Último Romance</h1>
-    <p>Arranjo para Piano, Saxofone Alto, Trompete e Trombone</p>
+    <div class="header--content">
+      <div class="header--text">
+        <h1>Partitura de Último Romance</h1>
+        <p>Arranjo para Piano, Saxofone Alto, Trompete e Trombone</p>
+      </div>
+      <div class="header--img-container">
+        <img src="./public/print.webp" alt="Print screen da partitura">
+      </div>
+    </div>
+
+    <style>
+      header {
+        padding: 40px;
+      }
+
+      .header--content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .header--text {
+        text-align: left;
+      }
+
+      header h1 {
+        font-size: 50px;
+      }
+
+      .header--img-container {
+        padding: 20px;
+      }
+
+      header img {
+        display: block;
+        width: 600px;
+      }
+    </style>
   </header>
   <section id="sobre">
     <h2>Uma experiência musical única</h2>
@@ -171,7 +207,7 @@
         orquestras, bandas covers de música popular brasileira e diversos materiais para o ensino de música. Seu sonho é
         viver de música, tocando, escrevendo e ensinando pessoas de baixa renda, pois acredita no poder transformador da
         música. Junte-se a Francisco e embarque nessa jornada musical!</p>
-  
+
       <img src="./public/eu.webp" alt="Foto do criador do conteúdo">
     </div>
 
