@@ -17,7 +17,7 @@
     header {
       background: #333;
       color: #fff;
-      padding: 20px;
+      padding: 40px;
       text-align: center;
     }
 
@@ -27,7 +27,12 @@
     }
 
     header p {
-      font-size: 1.2em;
+      font-size: 1.5em;
+    }
+
+    header img {
+      display: block;
+      width: 600px;
     }
 
     section {
@@ -93,26 +98,6 @@
     #loom-companion-mv3 {
       display: none;
     }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2em;
-      }
-
-      header p {
-        font-size: 1em;
-      }
-
-      section {
-        padding: 10px;
-        margin: 10px;
-      }
-
-      .cta {
-        font-size: 1em;
-        padding: 8px 16px;
-      }
-    }
   </style>
 </head>
 
@@ -120,8 +105,10 @@
   <header>
     <div class="header--content">
       <div class="header--text">
-        <h1>Partitura de Último Romance</h1>
-        <p>Arranjo para Piano, Saxofone Alto, Trompete e Trombone</p>
+        <h1>Partitura de Último Romance: Arranjo para Piano, Saxofone Alto, Trompete e Trombone</h1>
+        <p>Uma exploração musical única: descubra as texturas e sonoridades da icônica música "Último
+          Romance" da banda Los Hermanos com este arranjo .</p>
+        <p><a href="#compra" class="cta">COMPRAR AGORA</a></p>
       </div>
       <div class="header--img-container">
         <img src="./public/print.webp" alt="Print screen da partitura">
@@ -129,10 +116,6 @@
     </div>
 
     <style>
-      header {
-        padding: 40px;
-      }
-
       .header--content {
         display: flex;
         justify-content: space-between;
@@ -143,17 +126,12 @@
         text-align: left;
       }
 
-      header h1 {
-        font-size: 50px;
-      }
-
       .header--img-container {
         padding: 20px;
       }
 
-      header img {
-        display: block;
-        width: 600px;
+      header .cta {
+        margin: 0;
       }
     </style>
   </header>
