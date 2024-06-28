@@ -32,27 +32,26 @@
 
     header img {
       display: block;
-      width: 600px;
+      width: 100%;
     }
 
     section {
-      padding: 20px 60px;
-      margin: 20px auto;
-      max-width: 800px;
+      padding: 60px;
+      margin: 0 auto;
+      max-width: 100%;
       background: #fff;
-      border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
     section h2 {
-      color: #333;
       border-bottom: 2px solid #f1c40f;
       padding-bottom: 10px;
+      margin-bottom: 40px;
+      margin-top: 0;
     }
 
     section h3 {
       color: #e67e22;
-      margin-top: 20px;
     }
 
     section p {
@@ -81,7 +80,7 @@
       display: block;
       width: fit-content;
       padding: 10px 20px;
-      margin: 20px auto 10px;
+      margin: 40px auto 10px;
       background: #e67e22;
       color: #fff;
       text-align: center;
@@ -89,14 +88,43 @@
       border-radius: 5px;
       font-size: 1.2em;
       transition: background-color 0.3s ease;
+      white-space: nowrap;
     }
 
     .cta:hover {
       background: #d35400;
     }
 
+    .dark {
+      background: #333;
+      color: #fff;
+    }
+
+    .dark h2 h3 {
+      color: #fff;
+    }
+
+    .light {
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    .light h2 h3 {
+      color: #e67e22;
+    }
+
     #loom-companion-mv3 {
       display: none;
+    }
+
+    @media (max-width: 600px) {
+      section {
+        padding: 40px 20px;
+      }
+
+      .cta {
+        margin: 40px auto;
+      }
     }
   </style>
 </head>
@@ -107,8 +135,8 @@
       <div class="header--text">
         <h1>Partitura de Último Romance: Arranjo para Piano, Saxofone Alto, Trompete e Trombone</h1>
         <p>Uma exploração musical única: descubra as texturas e sonoridades da icônica música "Último
-          Romance" da banda Los Hermanos com este arranjo .</p>
-        <p><a href="https://pay.hotmart.com/H93943329T" target="_blank" class="cta">COMPRAR AGORA</a></p>
+          Romance" da banda Los Hermanos com este arranjo.</p>
+        <div><a href="https://pay.hotmart.com/H93943329T" target="_blank" class="cta">COMPRAR AGORA</a></div>
       </div>
       <div class="header--img-container">
         <img src="./public/print.webp" alt="Print screen da partitura">
@@ -121,7 +149,7 @@
         justify-content: space-evenly;
         align-items: center;
       }
-      
+
       .header--text {
         text-align: left;
         max-width: 800px;
@@ -134,50 +162,74 @@
       header .cta {
         margin: 0;
       }
+
+      @media (max-width: 960px) {
+        .header--content {
+          flex-direction: column;
+        }
+
+        .header--img-container {
+          padding: 0;
+        }
+
+        header img {
+          width: 100%;
+        }
+
+        header .cta {
+          margin: 40px auto;
+        }
+      }
     </style>
   </header>
+
   <section id="sobre">
     <h2>Uma experiência musical única</h2>
     <p>Descubra a magia de "Último Romance" com nossa partitura especialmente arranjada para Piano, Saxofone Alto,
       Trompete e Trombone. Cada nota foi cuidadosamente escolhida para capturar a essência e a emoção desta canção
       icônica.</p>
 
-    <p><a href="https://pay.hotmart.com/H93943329T" target="_blank" class="cta">ADQUIRIR E COMEÇAR A TOCAR</a></p>
+    <div><a href="https://pay.hotmart.com/H93943329T" target="_blank" class="cta">ADQUIRIR E COMEÇAR A TOCAR</a></div>
+  </section>
 
-    <h3>Características principais:</h3>
+  <section id="caracteristicas" class="dark">
+    <h2>Características principais:</h2>
     <ul>
-      <li><strong>Arranjo Profissional:</strong> Desenvolvido por músicos experientes, garantindo uma execução perfeita
+      <li><strong>Arranjo Profissional:</strong> Desenvolvido por músicos experientes, garantindo uma execução
+        perfeita
         e envolvente.</li>
       <li><strong>Interpretação Autêntica:</strong> Fidelidade à versão original, com nuances que destacam a beleza da
         melodia.</li>
       <li><strong>Versatilidade:</strong> Ideal para apresentações solo ou em grupo, atendendo a diversos estilos e
         níveis de habilidade.</li>
-      <li><strong>Aprimoramento Musical:</strong> Um excelente recurso para músicos que desejam expandir seu repertório
+      <li><strong>Aprimoramento Musical:</strong> Um excelente recurso para músicos que desejam expandir seu
+        repertório
         e aprimorar suas habilidades técnicas e interpretativas.</li>
     </ul>
-
-    <h3>Por que escolher nossa partitura?</h3>
-    <p>
-      <strong>Qualidade Superior:</strong> Nossas partituras são desenvolvidas com os mais altos padrões de qualidade,
-      proporcionando uma experiência musical incomparável.<br>
-      <strong>Facilidade de Uso:</strong> Formato claro e de fácil leitura, facilitando a prática e a performance.<br>
-      <strong>Acesso Imediato:</strong> Disponível para download imediato após a compra, permitindo que você comece a
-      tocar sem demora.
-    </p>
-
-    <h3>Uma jornada musical inesquecível</h3>
-    <p>Ao adquirir a partitura de "Último Romance", você não está apenas comprando um arranjo musical, mas embarcando em
-      uma jornada emocional através de uma das canções mais tocantes de todos os tempos. Deixe-se envolver pela melodia
-      e sinta cada nota ressoar profundamente em seu coração.</p>
-
-    <h3>Aproveite esta oportunidade exclusiva</h3>
-    <p>Não perca a chance de adicionar esta peça incrível ao seu repertório. Garanta agora a sua partitura de "Último
-      Romance" e transforme suas performances em momentos inesquecíveis.</p>
-
-    <p><a href="https://pay.hotmart.com/H93943329T" target="_blank" class="cta">APROVEITAR OPORTUNIDADE</a></p>
   </section>
 
-  <section id="criador">
+  <section id="por-que-escolher" class="light">
+    <h2>Por que escolher nossa partitura?</h2>
+    <ul>
+      <li><strong>Qualidade Superior:</strong> Nossas partituras são desenvolvidas com os mais altos padrões de
+        qualidade,
+        proporcionando uma experiência musical incomparável.<br></li>
+      <li><strong>Facilidade de Uso:</strong> Formato claro e de fácil leitura, facilitando a prática e a
+        performance.<br></li>
+      <li><strong>Acesso Imediato:</strong> Disponível para download imediato após a compra, permitindo que você comece
+        a
+        tocar sem demora.</li>
+    </ul>
+  </section>
+
+  <section id="aproveite" class="dark">
+    <h2>Aproveite esta oportunidade exclusiva</h2>
+    <p>Não perca a chance de adicionar esta peça incrível ao seu repertório. Garanta agora a sua partitura de "Último
+      Romance" e transforme suas performances em momentos inesquecíveis.</p>
+    <div><a href="https://pay.hotmart.com/H93943329T" target="_blank" class="cta">APROVEITAR OPORTUNIDADE</a></div>
+  </section>
+
+  <section id="criador" class="light">
     <h2>Conheça melhor quem criou o conteúdo</h2>
 
     <div>
@@ -195,10 +247,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-      }
-
-      #criador h2 {
-        margin-bottom: 0;
+        flex-wrap: wrap-reverse;
       }
 
       #criador img {
@@ -208,53 +257,37 @@
         width: 200px;
         height: 200px;
       }
+
+      @media (max-width: 600px) {
+        #criador img {
+          width: 256px;
+          height: 256px;
+        }
+      }
     </style>
 
   </section>
 
-  <section id="compra">
-    <!-- Informações de compra -->
+  <section id="compra" class="dark">
     <h2>Esta oferta pode terminar em breve</h2>
     <p>Garanta agora a sua partitura de "Último Romance" com total tranquilidade. Estamos tão confiantes na qualidade
       deste arranjo que oferecemos uma garantia de satisfação de 7 dias. Basta entrar em contato e nós reembolsaremos o
       valor integral da sua compra, sem perguntas.</p>
-    <a href="https://pay.hotmart.com/H93943329T" target="_blank" class="cta">COMPRAR AGORA</a>
+    <div><a href="https://pay.hotmart.com/H93943329T" target="_blank" class="cta">COMPRAR AGORA</a></div>
 
     <style>
       #compra {
-        background: #333;
-        color: #fff;
         text-align: center;
       }
 
       #compra h2 {
-        color: #fff;
         border-bottom: none;
         margin-bottom: 10px;
       }
-
-      #compra p {
-        color: #fff;
-        font-size: 1em;
-      }
-
-      @media (max-width: 600px) {
-        #compra {
-          padding: 10px;
-        }
-
-        #compra h2 {
-          font-size: 1.5em;
-        }
-
-        #compra p {
-          font-size: 1em;
-        }
-      }
     </style>
   </section>
-  <section id="faq">
-    <!-- Perguntas frequentes -->
+
+  <section id="faq" class="light">
     <h2>Perguntas frequentes</h2>
 
     <div class="faq-item">
@@ -288,7 +321,6 @@
       }
 
       .faq-item h3 {
-        color: #333;
         margin-bottom: 10px;
       }
 
@@ -298,49 +330,30 @@
     </style>
   </section>
 
-  <section id="apelo-final">
-    <div class="apelo-final--left-column">
-      <h2>Aproveite o conteúdo em qualquer dispositivo</h2>
-      <ul>
-        <li>Seus dados pessoais são confidenciais</li>
-        <li>Compra 100% segura</li>
-        <li>Garantia: seu dinheiro de volta sem perguntas</li>
-      </ul>
-    </div>
-    <div class="apelo-final--right-column">
-      <p class="apelo-final--label">por apenas</p>
-      <p class="apelo-final--price">R$ 9,99</p>
-      <button class="cta" href="https://pay.hotmart.com/H93943329T" target="_blank">COMPRAR AGORA</button>
-      <p>PAGAMENTO 100% SEGURO COM ACESSO IMEDIATO</p>
+  <section id="apelo-final" class="dark">
+    <div class="container">
+      <div class="apelo-final--left-column">
+        <h2>Aproveite o conteúdo em qualquer dispositivo</h2>
+        <ul>
+          <li>Seus dados pessoais são confidenciais</li>
+          <li>Compra 100% segura</li>
+          <li>Garantia: seu dinheiro de volta sem perguntas</li>
+        </ul>
+      </div>
+      <div class="apelo-final--right-column">
+        <p class="apelo-final--label">por apenas</p>
+        <p class="apelo-final--price">R$ 9,99</p>
+        <a class="cta" href="https://pay.hotmart.com/H93943329T" target="_blank">COMPRAR AGORA</a>
+        <p class="apelo-final-caption">PAGAMENTO 100% SEGURO COM ACESSO IMEDIATO</p>
+      </div>
     </div>
 
     <style>
-      /* Estilos para o componente apelo-final */
-      #apelo-final {
+      #apelo-final .container {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 20px auto;
-        background-color: #333;
-        color: white;
-      }
-
-      #apelo-final h2 {
-        color: white;
-        margin-right: 60px;
-      }
-
-      #apelo-final ul {
-        list-style-type: none;
-        padding: 0;
-      }
-
-      #apelo-final ul li {
-        margin-bottom: 5px;
-      }
-
-      #apelo-final button {
-        margin: 0 auto 20px;
+        flex-wrap: wrap;
       }
 
       .apelo-final--right-column {
@@ -348,18 +361,32 @@
         margin: 20px 0;
       }
 
+      .apelo-final--right-column .cta {
+        margin: 0px auto 20px;
+      }
+
       .apelo-final--label {
         margin: 0;
       }
 
       .apelo-final--price {
-        font-size: 60px;
+        font-size: 5em;
         margin: 0;
+      }
+
+      .apelo-final-caption {
+        font-size: 0.8em;
+      }
+
+      @media (max-width: 1024px) {
+        #apelo-final .container {
+          flex-direction: column;
+        }
       }
     </style>
   </section>
 
-  <footer>
+  <footer class="light">
     <p>COPYRIGHT © Todos os Direitos Reservados.</p>
   </footer>
 </body>
