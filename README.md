@@ -1,4 +1,4 @@
-# landing-page-ultimo-romance
+# landing-page-partitura-ultimo-romance
 
 Landing page para a venda do PDF do arranjo de "Último Romance" da banda Los Hermanos.
 
